@@ -17,6 +17,7 @@ export default function Movies({ initialMovies = [] }) {
   function handleAddMovie(newMovie) {
     setMovies([...movies, { id: uid(), ...newMovie }]);
   }
+
   function handleDeleteMovie(id) {
     setMovies(movies.filter((movie) => movie.id !== id));
   }

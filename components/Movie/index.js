@@ -32,13 +32,11 @@ const Button = styled.button`
 
 const Actions = styled.div`
   display: flex;
-  flex-direction: row;
   gap: 4px;
 `;
 
 const StyledMovie = styled.section`
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
